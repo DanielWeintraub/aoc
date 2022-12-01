@@ -12,7 +12,7 @@ with open(filename) as file:
         lines.append(line)
 
 numIncreasing = 0
-for i in range(1,len(lines)):
+for i in range(1, len(lines)):
     ic(lines[i])
     if int(lines[i]) > int(lines[i-1]):
         ic(lines[i], lines[i-1])
